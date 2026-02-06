@@ -19,7 +19,7 @@ const IMAGE_EXTENSIONS: Record<string, string> = {
   m7: "JPG",
   m8: "jpeg",
 };
-const IMAGES = IMAGE_NAMES.map((name) => `/${name}.${IMAGE_EXTENSIONS[name]}`);
+const IMAGES = IMAGE_NAMES.map((name) => `./${name}.${IMAGE_EXTENSIONS[name]}`);
 
 function shuffle<T>(array: T[]): T[] {
   return [...array].sort(() => Math.random() - 0.5);

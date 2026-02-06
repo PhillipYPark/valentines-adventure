@@ -18,19 +18,19 @@ const QUESTIONS: Question[] = [
       "UW IMA 🏋️",
     ],
     correct: 2,
-    gif: "/one.gif",
+    gif: "./one.gif",
   },
   {
     question: "Who said “I love you” first? 😳",
     options: ["You", "Me", "Same time 💞", "The universe 🌌"],
     correct: 0,
-    gif: "/two.gif",
+    gif: "./two.gif",
   },
   {
     question: "What’s my favorite thing about you? 🥰",
     options: ["Your smile", "Your heart", "Your laugh", "All of the above 💖"],
     correct: 3,
-    gif: "/three.gif",
+    gif: "./three.gif",
   },
 ];
 

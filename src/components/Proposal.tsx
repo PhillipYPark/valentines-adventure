@@ -6,7 +6,7 @@ export const Proposal = () => {
   const [noPos, setNoPos] = useState<{ top: number; left: number } | null>(
     null,
   );
-  const [gifSrc, setGifSrc] = useState("/pic.gif");
+  const [gifSrc, setGifSrc] = useState("./pic.gif");
   const [isMoving, setIsMoving] = useState(false);
 
   const [hearts, setHearts] = useState<{ id: number; x: number }[]>([]);
@@ -16,7 +16,7 @@ export const Proposal = () => {
     setAnswered(answer);
 
     if (answer === "yes") {
-      setGifSrc("/end.gif");
+      setGifSrc("./end.gif");
     }
   };
 

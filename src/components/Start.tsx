@@ -35,7 +35,7 @@ export const Start = ({ onNext }: { onNext: () => void }) => {
               className="flex justify-center"
             >
               <img
-                src={isRejected ? "/nah.gif" : "/adventure.gif"}
+                src={isRejected ? "./nah.gif" : "./adventure.gif"}
                 alt={
                   isRejected ? "Playful rejection gif" : "Adventure heart gif"
                 }
